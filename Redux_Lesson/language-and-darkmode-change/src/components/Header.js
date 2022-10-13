@@ -6,7 +6,7 @@ const Header = () => {
     const {dark,language} = useSelector(state => state.site)
     return (
         <div>
-            header
+            <h2>Header Info</h2>
 
             <div>
                 Dark Mode = {dark ? 'True':'False'}

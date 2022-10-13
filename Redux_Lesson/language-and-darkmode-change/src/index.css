@@ -12,12 +12,5 @@ code {
     monospace;
 }
 
-button{
-  border: none;
-  padding: 20px;
-  cursor: pointer;
-}
-.active{
-  background-color: green;
-  color: #fff;
-}
+
+
