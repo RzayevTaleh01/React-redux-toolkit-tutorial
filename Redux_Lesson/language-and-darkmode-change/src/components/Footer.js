@@ -10,9 +10,12 @@ const Footer = () => {
 
   return (
     <div className="footer">
-    
       <div>
-      <h2>Change Language</h2>
+        {language === "eng" ? (
+          <h2>Change Page Language</h2>
+        ) : (
+          <h2>Səhifənin Dilini Dəyiş</h2>
+        )}
         {languages.map((button, index) => (
           <button
             onClick={() => dispatch(setLanguage(button))}
@@ -24,7 +27,11 @@ const Footer = () => {
         ))}
       </div>
       <div>
-      <h2>Change Site Theme</h2>
+        {language === "eng" ? (
+          <h2>Change Page Theme</h2>
+        ) : (
+          <h2>Səhifənin Temasını Dəyiş</h2>
+        )}
 
         <button onClick={() => dispatch(setDarkMode())}>
           {dark ? "Light Mode" : "Dark Mode"}
