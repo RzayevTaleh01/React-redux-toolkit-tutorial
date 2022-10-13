@@ -1,9 +1,14 @@
 .App {
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+.dark{
+  background-color: #202C37;
+  color: #fff;
+  height: 100vh;
 }
 
 .footer{
