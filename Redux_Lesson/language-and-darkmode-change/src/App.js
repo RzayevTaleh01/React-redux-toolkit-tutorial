@@ -1,17 +1,12 @@
-import './App.css';
-import React, { useState } from "react";
-import Counter from './components/Counter';
-import CounterActions from './components/CounterActions';
-
-
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
-
-
   return (
     <div className="App">
-      <Counter/>
-      <CounterActions/>
+      <Header />
+      <Footer/>
     </div>
   );
 }
