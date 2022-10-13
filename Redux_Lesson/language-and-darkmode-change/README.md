@@ -1,3 +1,3 @@
-# Redux Toolkit Tutorial 
+# Redux Toolkit Tutorial Tasks
 
-## Counter Example with React Redux Toolkit
+## The App for changing the language and theme of the page 
